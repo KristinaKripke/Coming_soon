@@ -6,12 +6,17 @@ _website design project_
 
 This project is for educational porpuses only. Pull request are welcome, but priority for project authors! Thank you for your cooperation!
 
-Design: ###
+Design: ![alt text](./project_design.png)
 
 ## 🎯 Project features/goals
 
 - Github pages
-- Non-responsive design
+- Responsive design
+- Social icons (FontAwesome, etc)
+- Google fonts
+- favicon
+- CSS animations
+- HTML forms
 
 ## 🧰 Getting Started
 
