@@ -5,3 +5,21 @@
 @import '../components/clock.css';
 @import '../components/mouse.css';
 @import '../components/progress-bar.css';
+@import '../components/socials.css';
+
+@import '../vendors/font-awesome.min.css';
+
+
+.footer {
+    padding-top: 0;
+    color: #fffa;
+}
+
+.footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer p a:hover {
+    text-decoration: underline;
+}

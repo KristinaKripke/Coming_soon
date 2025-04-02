@@ -16,4 +16,28 @@
     margin-left: 0.375em;
     margin-top: 0.3em;
     border-radius: 0.2em;
+    animation-name: scroll;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-play-state: paused;
+}
+
+.mouse:hover::before {
+    animation-play-state: running;
+}
+
+@keyframes scroll {
+    0% {
+        margin-top: 0.3em;
+        opacity: 1;
+    }
+    30% {
+        background-color: rgb(226, 59, 105);
+        opacity: 1;
+    }
+    100% {
+        margin-top: 1em;
+        opacity: 0;
+    }
 }
