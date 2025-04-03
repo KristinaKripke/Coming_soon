@@ -1,5 +1,5 @@
 .mouse {
-    font-size: 20px;
+    font-size: 1.5rem;
     border: 0.1em solid #fff;
     width: 1.2em;
     height: 1.9em;
@@ -33,7 +33,7 @@
         opacity: 1;
     }
     30% {
-        background-color: rgb(226, 59, 105);
+        background-color: #ec1d61;
         opacity: 1;
     }
     100% {
