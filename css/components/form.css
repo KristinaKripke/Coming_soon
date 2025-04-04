@@ -1,0 +1,102 @@
+form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    width: 100%;
+    gap: 2rem;
+}
+.input__name {
+    width: 50%;
+    display: flex;
+    width: calc(50% - 1rem);
+}
+.input__email {
+    width: 50%;
+    display: flex;
+    width: calc(50% - 1rem);
+}
+
+.input__message {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.input__name label,
+.input__email label {
+    display: none;
+}
+
+.input__message label {
+    width: 100%;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #333;
+    padding: 0.1rem 0 0.5rem 0;
+}
+
+form input:focus,
+form textarea:focus {
+    outline: none;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.btn__submit {
+    color: #fff;
+    background-color: #ec1d61;
+    padding: 0.5rem 1rem;
+    border: none;
+}
+
+.btn__submit:hover {
+    box-shadow: 0 0.2rem 0.4rem #666;
+}
+
+.input::placeholder {
+    font-style: italic;
+}
+
+.input__subscribe label {
+    display: none;
+}
+
+.input__subscribe input {
+    width: 100%;
+    display: flex;
+    border: none;
+    border-bottom: 1px solid #fff;
+    padding: 0.1rem 0 0.5rem 0;
+    background-color: transparent;
+    opacity: 0.8;
+}
+
+.input__subscribe input::placeholder {
+    color: #fff;
+    opacity: 0.8;
+}
+
+.input__subscribe input:focus {
+    outline: none;
+}
+
+.btn__subscribe {
+    display: flex;
+    color: #fff;
+    background-color: #ec1d61;
+    padding: 0.5rem 1rem;
+    border: none;
+    width: 9rem;
+    justify-content: center;
+    border-radius: 0.2rem;
+}
+
+.btn__subscribe:hover {
+    box-shadow: 0 0.2rem 0.4rem #666;
+}

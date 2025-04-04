@@ -20,6 +20,7 @@
     flex-direction: column;
     width: 600px;
     gap: 1.5rem;
+    align-items: center;
 }
 
 .container .column {
@@ -31,6 +32,9 @@
 
 .container .right-column {
     width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
 }
 
 @media (max-width: 69rem) {
