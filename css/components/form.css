@@ -23,12 +23,14 @@ form {
 }
 
 .input__name label,
-.input__email label {
+.input__email label,
+.input__message label {
     display: none;
 }
 
 .input__message label {
     width: 100%;
+    font-size: 0.8rem;
 }
 
 form input,
@@ -48,6 +50,17 @@ textarea {
     resize: vertical;
 }
 
+.input__email {
+    display: flex;
+    width: calc(50% - 1rem);
+}
+
+.input__message {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
 .btn__submit {
     color: #fff;
     background-color: #ec1d61;
@@ -55,14 +68,26 @@ textarea {
     border: none;
     box-shadow: 0 0.1rem 0.2rem #0006;
     border-radius: 0.2rem;
+    display: flex;
 }
 
 .btn__submit:hover {
     box-shadow: 0 0.2rem 0.4rem #666;
 }
 
-.input::placeholder {
+textarea {
+    resize: vertical;
+}
+
+.input::placeholder,
+.textarea::placeholder {
     font-style: italic;
+}
+
+.input__subscribe {
+    display: flex;
+    justify-content: center;
+    width: 100%;
 }
 
 .input__subscribe label {
